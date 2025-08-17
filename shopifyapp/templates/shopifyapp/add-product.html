@@ -1,0 +1,63 @@
+{% extends "shopifyapp/base.html" %}
+{% load static %}
+
+{%block head%}
+<title>shopify-add-product</title>
+{% endblock %}        
+
+
+{%block body%} 
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+  <a class="navbar-brand d-flex align-items-center" href="shopifyapp\templates\shopifyapp\index.html">
+    <h1> Add Your Product Here </h1>
+  </a>
+</nav>
+<br>
+<!-- Navbar End -->
+
+<form action="" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+
+  <div class="form-group">
+    <label for="name"> Product Name</label>
+    <input type="text" class="form-control" name = "pname"  aria-describedby="emailHelp">
+  </div>
+
+  <div class="form-group">
+    <label for="Discription">Discription</label>
+    <input type="text" class="form-control" name = "discription">
+  </div>
+
+  <div class="form-group">
+    <label for="Discription">Original Price</label>
+    <input type="integer" class="form-control" name = "oprice">
+  </div>
+
+  <div class="form-group">
+    <label for="Discription">Discount Percentage</label>
+    <input type="text" class="form-control" name = "dprice">
+  </div>
+
+  <div class="form-group">
+    <label for="Discription">Image</label>
+    <input type="file" class="form-control" name = "image">
+  </div>
+  
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Category</label>
+  </div>
+  <select class="custom-select" name="category" id="inputGroupSelect01">
+    
+    <option selected>Choose...</option>
+    {% for cat in category%}
+    <option value="{{cat.id}}">{{cat.name}}</option>
+    {% endfor %}
+  </select>
+</div>
+
+  <button type="submit" class="btn btn-primary">Add Product</button>
+</form>
+
+{%endblock%}

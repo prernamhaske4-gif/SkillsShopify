@@ -1,0 +1,38 @@
+{% extends 'shopifyapp/base.html' %}
+{% load static %}
+
+{% block head %} 
+
+    <title> shopifyapp-add-category</title>
+{% endblock %}
+
+{% block body %} 
+
+<h1> Add category Here</h1>
+
+{% if flag %}
+    <p> category saved to DB </p>
+
+{% endif %}
+
+<form action="" method="POST"> {% csrf_token %}
+
+  <div class="form-group">
+    <label for="Name">Product Name</label>
+    <input type="text" class="form-control" name="cname" aria-describedby="emailHelp">
+  </div>
+
+  
+
+  <button type="submit" class="btn btn-primary">Add Product</button>
+</form>
+
+<!-- ✅ JavaScript to prevent form resubmission -->
+<script>
+    // This removes the form POST data from browser history
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+
+{% endblock %}
