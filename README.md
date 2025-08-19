@@ -30,5 +30,6 @@ A big thank you to my teammates for the collaboration and effort! 🙌
 
 #Django #Python #Ecommerce #WebDevelopment #Internship #AI #MachineLearning #TeamProject
 
+Screenshots - 
 
-
+<img width="1920" height="1080" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/014af5d7-8872-49cf-b744-fd15f8f8aef3" />
