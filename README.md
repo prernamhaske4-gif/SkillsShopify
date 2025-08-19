@@ -33,3 +33,9 @@ A big thank you to my teammates for the collaboration and effort! 🙌
 Screenshots - 
 
 <img width="1920" height="1080" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/014af5d7-8872-49cf-b744-fd15f8f8aef3" />
+
+
+<img width="1920" height="1080" alt="Screenshot (238)" src="https://github.com/user-attachments/assets/9c6471ec-8112-4913-9521-0f4a407f74ce" />
+
+
+<img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/94d77a77-757a-423f-ae84-279851a8e001" />
