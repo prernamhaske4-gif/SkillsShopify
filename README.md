@@ -13,7 +13,8 @@ I built SkillsShopify, a Django-based E-commerce platform designed for sellers t
 
 💡 Through this project, I gained strong hands-on experience in backend development, business logic automation, and full-stack E-commerce design.
 
-👉 Here’s the project link: https://lnkd.in/eykd3nz8
+🔗 Here’s the project link: [Click here to view the project](https://github.com/prernamhaske4-gif/SkillsShopify)
+
 
 👥 Team Members
 
