@@ -29,3 +29,10 @@ A big thank you to my teammates for the collaboration and effort! 🙌
 📌 We’re open to feedback, suggestions, and internship opportunities in Data Science, AI/ML, and Web Development.
 
 #Django #Python #Ecommerce #WebDevelopment #Internship #AI #MachineLearning #TeamProject
+
+## 📸 Project Screenshots  
+
+### 🏠 Homepage  
+![Homepage](C:\Users\DELL 3520\OneDrive\Desktop\django project\SkillsShopify\shopifyapp\static\shopifyapp\images\Screenshot (235).png)  
+
+
